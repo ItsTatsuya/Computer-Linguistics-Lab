@@ -1,0 +1,2 @@
+I'm testing the tokenizer on U.S.A and USA. It isn't perfect -- but ice-cream is great! Mother-in-law's recipes cost $12.50... Do you agree?
+Here's another line to test abbreviations like NASA, e.g., and co. plus contractions: we're, they'll, she'd.
