@@ -1,22 +1,18 @@
 # Spelling Correction using Noisy Channel Model
 
-# Step 1: Create a simple dictionary (V) with at least 5 common words and their prior probabilities
 V = {
-    "word": 0.4,   # Higher probability for common word
+    "word": 0.4,
     "world": 0.3,
     "wrote": 0.2,
     "worm": 0.05,
     "worth": 0.05
 }
-
-# Step 2: Choose a word from dictionary and create misspelled versions with single-character errors
 original_word = "word"
-# Example 1: Transposition error: 'o' and 'r' swapped
-misspelled_transposition = "wrod"
-# Example 2: Substitution error: 'o' -> 'i'
-misspelled_substitution = "wird"  # treated as a non-word misspelling in our toy setup
 
-# Step 3: Manually generate candidate set of at least 3 plausible corrections from dictionary
+misspelled_transposition = "wrod"
+
+misspelled_substitution = "wird"
+
 candidates = ["word", "world", "wrote"]
 
 # Helper: check if two strings are exactly one edit apart (insertion, deletion, substitution, or adjacent transposition)
